@@ -1,11 +1,13 @@
 const express = require('express')
 
+const PORT = process.env.PORT
+
 let app = express()
 
 app.get('/', (req, res) => {
-	res.send('Hi, there.')
+	res.send('Hi, there. `Sup?')
 })
 
-app.listen(3333, () => {
-	console.log('on on 3333')
+app.listen(PORT, () => {
+	console.log(`on on ${PORT}`)
 })
