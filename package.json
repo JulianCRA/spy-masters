@@ -1,0 +1,22 @@
+{
+  "name": "spy-masters",
+  "version": "0.0.1",
+  "description": "\"Homage\" of the Codenames table game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianCRA/spy-masters.git"
+  },
+  "author": "JulianCRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianCRA/spy-masters/issues"
+  },
+  "homepage": "https://github.com/JulianCRA/spy-masters#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
